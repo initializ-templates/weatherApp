@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: black;
+  user-select: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-image: url('./images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.fixed-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: 9999;/* Ensure it's above other content */
+  width: max-content;
+  background: none;
+  justify-content: center;
+  align-items: center;
+}
